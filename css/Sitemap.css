@@ -1,0 +1,19 @@
+.menu-img {background-image: url("../image/home2.webp");}
+#b{
+    padding: 50px 8%;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+#b h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.column{padding: 10px}
+.column ul{margin: 10px 0 0 25px}
+.column a{
+    color: #2980b9;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}

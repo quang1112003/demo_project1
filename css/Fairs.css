@@ -1,0 +1,48 @@
+.menu-img {background-image: url("../image/home1.webp");}
+#b{
+    padding-top: 50px;
+    background: #f1f5f9;
+    display: flex;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#div4{
+    margin:10px 10px 10px 5%;
+    padding: 20px;
+    background: white;
+    width: 65%;
+    height: 100%;
+}
+#div4 img{width: 100%;}
+#div5{
+    width: 35%;
+    margin: 10px 5% 10px 10px;
+    padding: 10px;
+}
+#div5 div{margin: 2px 0}
+.r{
+    font-weight: 400;
+    padding: 20px;
+    background: white;
+}
+
+.r:last-child{border: none}
+.r2{
+    font-weight:700;
+    padding: 10px;
+    background: white;
+}
+.r2 a{
+    color: #32325d;
+    text-decoration: none;
+}
+.r2 a:hover {color: #2472a4;}
+#i{
+    text-align: center;
+}
+#i img{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+}

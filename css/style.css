@@ -1,0 +1,146 @@
+*{box-sizing: border-box}
+body{margin: 0;}
+.logo_name {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: rgb(94, 128, 240);
+    font-weight: bold;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.search_icon {margin-left: 80px;}
+li{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.header_logo img{
+    position: absolute;
+    top: 12px;
+    left: 28px;
+    height: 15%;
+}
+.menu-img {
+    filter: brightness(50%);
+    height: 600px;
+    background-size: cover;
+}
+.menu ul {
+    position: absolute;
+    top: 25px;
+    left: 45%;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    background:transparent;
+    padding: 10px 20px;
+    position: relative;
+}
+.menu > ul > li:hover > ul {
+    border-radius: 2px;
+    background:black;
+    display: block;
+}
+.menu > ul > li a:hover {color: rgb(228, 225, 225);}
+
+.menu ul > li a  {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.menu > ul > li > ul {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    display: none;
+}
+.menu > ul > li > ul > li {
+    width: 188px;
+    position: relative;
+}
+.menu > ul > li > ul > li > ul {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 189px;
+    z-index: 2;
+}
+.menu > ul > li > ul > li > ul li {width: 200px;}
+.menu > ul > li > ul > li:hover ul {
+    display: block;
+    background:black;
+    opacity: 1;
+}
+.menu ul li ul li:hover {
+    background: orange;
+    cursor: pointer
+}
+/*bottom*/
+#bottom{
+    background: gray;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bt{
+    margin-top: 50px;
+    width: 20%;
+}
+#div9{margin-left: 5%;}
+#Notification{
+    border-radius: 4px;
+    background-color: #212a33;
+    padding: 20px;
+    margin-right: 5%;
+    height: 20%;
+}
+#div10{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+#div10 form{display: flex;}
+#div10 input{
+    width: 80%;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+}
+#div10 button{
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+}
+#bottom a{
+    color: white;
+    text-decoration: none;
+}
+#bottom a:hover{color: orange;}
+#divl{
+    background-color: #4a4a4a;
+    clear: both;
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#divl a{
+    padding: 0 3px;
+    color: white;
+}
+#ar{font-family: cursive;}
+#bottom p,#bottom h3 {
+    margin:0;
+    font-family: 'Poppins';
+}

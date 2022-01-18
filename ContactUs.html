@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page | SchoolsInfor</title>
+    <link rel="icon" href="image/icon_title.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ContactUs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/ContactUs.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/Newsletter.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="menu-img"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Schools</a>
+                    <ul>
+                        <li>
+                            <a href="#">City</a>
+                            <ul>
+                                <li><a href="Schools_HN.html">Hanoi City</a></li>
+                                <li><a href="Schools_HCM.html">HCM City</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">By Education Level</a>
+                            <ul>
+                                <li><a href="Schools_Kindergarten.html">Kindergarten</a></li>
+                                <li><a href="Schools_Primary.html">Primary Schools</a></li>
+                                <li><a href="Schools_Secondary.html">Secondary Schools</a></li>
+                                <li><a href="Schools_University.html">Pre-University</a></li>
+                                <li><a href="Schools_Centre.html">Learning Centre</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Schools.html">View All Schools</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                    <ul>
+                        <li><a href="AboutUs.html">About Us</a></li>
+                        <li><a href="OurTeam.html">Our Team</a></li>
+                        <li><a href="FAQ.html">FAQs</a></li>
+                    </ul>
+                </li>
+                <li><a href="ContactUs.html">Contact</a></li>
+                <li><a href="#">Map</a></li>
+                <li class="search_icon"><a href="#"><i class="fa fa-search"></i></a></li>
+            </ul>
+            <div class="header_logo"><a href="index.html"><img src="image/logo_main.png"></a><a href="index.html"><span class="logo_name">School Info</span></a></div>
+        </div>
+        <div id="b">
+            <div id="div4">
+                <h2>Get in touch</h2><br>
+                <p>
+                    Please email <a href="#">abc@gmail.com </a>or call +841 2345 9999.<br>
+                    Location:<br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0978634916487!2d105.77960061440741!3d21.028769893155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b3285df81f%3A0x97be82a66bbe646b!2sDetech%20Building!5e0!3m2!1svi!2s!4v1642427728165!5m2!1svi!2s" allowfullscreen="" loading="lazy"></iframe>
+                </p>
+                <br>
+                <p>
+                    If you would like us to contact you, please fill in the form and we’ll get back to you as soon as possible.
+                </p>
+            </div>
+            <div id="div5">
+                <form action="#">
+                    <div class="input_box">	
+                        <div class="Font">Your name</div>
+                        <input type="text" id="name" class="input_item"  onKeyUp="return check();">
+                        <div id="loiname" class="error"></div>
+                    </div>
+               
+        
+                    <div class="input_box">
+                        <div class="Font">Your email address</div>
+                        <input type="text" id="email" class="input_item"  onKeyUp="return check();">
+                        <div id="loiEmail" class="error"></div>
+                    </div>
+            
+        
+                    <div class="input_box">	
+                        <div class="Font">Your contact number</div>
+                        <input type="text" id="phone" class="input_item"  onKeyUp="return check();">
+                        <div id="loiPhone" class="error"></div>
+                    </div>
+                
+                    <div class="input_box">
+                        <div class="Font">I am interested in sending my child(ren) to</div>
+                        <select name="interest" id="interest">
+                            <option value="" selected disabled hidden>--</option>
+                            <option value="">--Sample Institution--</option>
+                            <option value="a1">   The ABC International School - Saigon South Campus 2 (Early Years)</option>
+                            <option value="a2">   American International School Vietnam</option>
+                            <option value="a3">   APU American International School - Da Nang City</option>
+                            <option value="a4">   Asia Pacific College</option>
+                            <option value="a5">   Australian American International School</option>
+                            <option value="a6">   Australian International School - Thu Thiem Campus</option>
+                            <option value="a7">   British International School Hanoi (BIS)</option>
+                            <option value="a8">   British Vietnamese International School</option>
+                            <option value="a9">   Canadian International School</option>
+                            <option value="a10">  Concordia International School</option>
+                            <option value="a11">  Asian International School - Caothang Campus 1</option>
+                            <option value="a12">  Brendon International Primary School</option>
+                            <option value="a13">  Doan Thi Diem GreenField School </option>
+                            <option value="a14">  European International School HCMC</option>
+                            <option value="a15">  Fosco International School</option>
+                            <option value="a16">  Gateway International School Hanoi</option>
+                            <option value="a17">  Global International School Hanoi (GIS)</option>
+                            <option value="a18">  Green Shoots International School</option>
+                            <option value="a19">  Hanoi Academy International Bilingual School</option>
+                            <option value="a20">  Hanoi International School (HIS)</option>
+                            <option value="a21">  Hanoi - Amsterdam High School For The Gifted</option>
+                            <option value="a22">  Hoi An International School</option>
+                            <option value="a23">  Horizon International Bilingual School - Hanoi Campus</option>
+                            <option value="a24">  Vietnamese American School System</option>
+                            <option value="a25">  Western Australian International School System - Primary, Middle & High School Campus</option>
+                            <option value="a26">  International German School HCMC</option>
+                            <option value="a27">  International School HCMC - American Academy</option>
+                            <option value="a28">  International School Ho Chi Minh City - Secondary Campus</option>
+                            <option value="a29">  Lycee Francais Alexandre Yersin</option>
+                            <option value="a30">  Montessori International School of Vietnam - Thao Dien Campus</option>
+                            <option value="a31">  APU - American International School</option>
+                            <option value="a32">  APU International School (Middle & High School)</option>
+                            <option value="a33">  Horizon International Bilingual School - HCMC Campus</option>
+                            <option value="a34">  Singapore International School</option>
+                            <option value="a35">  St Nicholas International School</option>
+                            <option value="a36">  The American School - Middle-High School Campus </option>
+                            <option value="a37">  US Vietnam Talent International School</option>
+                            <option value="a38">  TH School</option>
+                            <option value="a39">  Singapore International School @ Danang</option>
+                            <option value="a40">  San Lorenzo Montessori</option>
+                            <option value="a41">  TweedleWink Right Brain Kids Sdn Bhd</option>
+                            <option value="a42">  Yamaha Music School</option>
+                            <option value="a43">  You&Me Right Brain Learning Specialist</option>
+                            <option value="a44">  The Little Makers</option>
+                            <option value="a45">  Morris Allen English</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <div class="Font">Other schools (please specify)</div>            	
+                        <input type="text" class="input_item">
+                    </div>
+                    <div class="input_box">
+                        <div class="Font">When would you like to enrol your child(ren)?</div>            	
+                        <input type="text" class="input_item" placeholder="Eg. Sept 2021 or Jan 2022">
+                    </div>
+                    <div class="input_box">
+                        <div class="Font">What education level would you like to enrol your child into?</div>            	
+                        <input type="text" class="input_item" placeholder="Eg. Year 1 or Grade 7">
+                    </div>
+                    <div class="input_box">
+                        <div class="Font">Message (How can we help you?)</div>            	
+                        <textarea rows="10" cols="77"></textarea>
+                    </div>
+                    <div class="button_item">   
+                        <button id="b1" type="submit" onClick="return check()">
+                        <i class="fa fa-paper-plane"></i>
+                        Send Message                  
+                        </button>
+                    </div> 
+                </form>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="div9" class="bt">
+                <h3>Contact Infor</h3><br>
+                <p>
+                <p id="ar">Address: Detech Tower 8 Tôn Thất Thuyết, Nam từ liêm, Hà Nội</p>
+                <a href="#"><i class="fa fa-phone"></i> +841 2345 9999</a><br>
+                <a href="#"><i class="fa fa-envelope"></i> Write to us</a><br>
+                Website: <a href="index.html">SchoolsInfor.com</a>
+                </p>
+            </div>
+            <div class="bt">
+                <h3>Schools</h3><br>
+                <p>
+                    <a href="Schools_Kindergarten.html">Kindergarten</a><br>
+                    <a href="Schools_Primary.html">Primary Schools</a><br>
+                    <a href="Schools_Secondary.html">Secondary Schools</a><br>
+                    <a href="Schools_University.html">Pre-University</a><br>
+                    <a href="Schools_Centre.html">Learning Centre</a>
+                </p>
+            </div>
+            <div class="bt">
+                <h3>Navigation</h3><br>
+                <p>
+                    <a href="Blogs.html">Blogs</a><br>
+                    <a href="Fairs.html">Fairs</a><br>
+                    <a href="ContactUs.html">Contact Us</a><br>
+                    <a href="AboutUs.html">About Us</a><br>
+                    <a href="Terms.html">Terms of Use</a><br>
+                    <a href="Sitemap.html">Sitemap</a>
+                </p>
+            </div>
+            <div class="bt" id="Notification">
+                <h3><i class="fal fa-mail-bulk"></i>Newsletter</h3>
+                <p>Sign up for our newsletter to get the latest news and updates on schools.</p>
+                <div id="div10">
+                    <form action="#">
+                        <input type="text" class="input_box" id="email2" placeholder="Enter email address">
+                        <button type="submit" class="button_item" id="b2" onclick="return checkemail()"><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="divl">
+            <div>Copyright &#169; 2022 Schools Info</div>
+            <div>
+                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

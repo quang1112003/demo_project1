@@ -1,0 +1,44 @@
+.menu-img {background-image: url("../image/home1.webp");}
+#b{
+    padding: 80px 0 20px;
+    background: whitesmoke;
+}
+.schools{
+    padding: 10px;
+    margin: 15px auto;
+    background: white;
+    display: flex;
+    width: 65%;
+}
+.l i,h6{color: silver;}
+h2{text-align: center}
+.l a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0a53be;
+}
+.l:first-child {
+    width: 200px;
+    height: 200px;
+    margin: auto 30px;
+    text-align: center;
+}
+.l:last-child{padding-top: 25px}
+.l img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+h6{margin: 5px 10px}
+.l span{
+    padding: 0 5px;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.i{display: inline-block;}
+.light{background: #bcbebf;}
+.infor{
+    background: #0a53be;
+    color: white;
+}

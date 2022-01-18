@@ -1,0 +1,14 @@
+.menu-img {background-image: url("../image/AboutUs.webp");}
+#b{
+    padding: 50px 0 20px;
+    background: whitesmoke;
+}
+#div4{
+    margin: auto;
+    width: 55%;
+}
+#div4 a{text-decoration: none;}
+#div5{
+    background: white;
+    padding: 20px;
+}

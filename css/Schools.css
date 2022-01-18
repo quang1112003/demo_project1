@@ -1,0 +1,41 @@
+.menu-img {background-image: url("../image/home1.webp");}
+#b{
+    padding: 50px 0 20px 50px;
+    background: whitesmoke;
+}
+.schools{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.schools:hover{
+    border: 1px solid #0a53be;
+    cursor: pointer;
+}
+.schools:hover a{color: #0a53be}
+.box{
+    display: flex;
+    height: 110px;
+}
+.l i,h6{color: silver;}
+h2{padding-left: 20px}
+.l{width: 100%;}
+.l a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.l:first-child {
+    width: 100px;
+    height: 100px;
+}
+.l:last-child{height: 100%}
+.l img{
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: middle;
+}
+h6{margin: 5px 0 0 10px}
